@@ -1,18 +1,4 @@
-project-1-data-cleaning-preparation/
-│
-├── data/
-│   ├── dataset.xlsx
-│   ├── cleaned_dataset.xlsx
-│
-├── src/
-│   ├── data_cleaning.py
-│
-├── report/
-│   ├── project_report.docx
-│
-├── README.md
-________________________________________
-📌 README.md (COPY THIS)
+
 # Project 1: Data Cleaning & Preparation
 
 ## 📊 Overview
