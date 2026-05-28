@@ -1,4 +1,4 @@
-# 🧹 Project 1: Data Cleaning & Preprocessing  
+# 📊 Project 1: Data Cleaning & Preprocessing  
 ## DecodeLabs Internship Program
 
 ---
@@ -7,9 +7,9 @@
 
 This project was completed as part of my **Data Analytics Internship at DecodeLabs**.
 
-The objective was to clean and preprocess a raw transactional dataset using Python (Pandas & NumPy) to ensure data accuracy, consistency, and readiness for analysis.
+The objective was to clean and preprocess a raw transactional dataset using Python (Pandas & NumPy) to ensure the data is accurate, consistent, and analysis-ready.
 
-The dataset contained real-world data quality issues such as missing values in coupon codes and business logic inconsistencies in pricing.
+The dataset contained real-world data quality issues such as missing coupon codes, inconsistent formatting, and pricing validation errors.
 
 ---
 
@@ -39,83 +39,71 @@ The dataset contained real-world data quality issues such as missing values in c
 
 ---
 
-## 1. Data Inspection & Standardization
+## 🧾 1. Data Inspection & Standardization
 
-### Actions Performed:
-- Loaded dataset using Pandas  
-- Standardized column names (lowercase, underscore format)  
-- Inspected dataset structure and data types  
+### Observations
+- Dataset loaded successfully using Pandas
+- Column names standardized to lowercase format
 
-### Insight:
-Consistent formatting improves readability and ensures smooth data processing.
-
----
-
-## 2. Missing Value Analysis
-
-### Findings:
-- CouponCode column had **309 missing values**
-
-### Action Taken:
-- Missing and invalid coupon values were standardized and removed during cleaning
-
-### Insight:
-Missing coupon data may impact marketing and customer behavior analysis.
+### 💡 Insight
+Standardized column names improve consistency and simplify analysis workflows.
 
 ---
 
-## 3. Data Type Correction
+## ❗ 2. Missing Value Analysis
 
-### Actions:
+### Observations
+- CouponCode contained **309 missing values**
+
+### 💡 Insight
+Missing coupon data reduces visibility into promotional effectiveness and customer discount usage.
+
+---
+
+## 🔄 3. Data Type Correction
+
+### Actions Taken
 - Converted `date` column to datetime format  
-- Ensured numeric fields (quantity, unitprice, totalprice) were correctly typed  
-- Cleaned text fields by stripping extra spaces  
+- Ensured numeric columns were correctly typed  
+- Cleaned and standardized text fields  
 
-### Insight:
-Correct data types ensure accurate calculations and aggregations.
-
----
-
-## 4. Duplicate Check
-
-### Findings:
-- No full-row duplicates were detected
-
-### Insight:
-The dataset maintained strong structural uniqueness.
+### 💡 Insight
+Proper data types ensure correct calculations and prevent analytical errors.
 
 ---
 
-## 5. Coupon Code Cleaning
+## 🧹 4. Duplicate Check
 
-### Issues Identified:
-- Empty strings, "N/A", and inconsistent entries
+### Observations
+- No duplicate rows were found
 
-### Solution:
-- Standardized invalid entries to proper missing values before cleaning
-
----
-
-## 6. Missing Value Removal
-
-### Result:
-- Dataset reduced from **1200 → 891 rows**
-
-### Insight:
-Although data loss occurred, it improved overall dataset reliability.
+### 💡 Insight
+The dataset is structurally unique and reliable.
 
 ---
 
-## 7. Business Logic Validation
+## 🏷️ 5. Coupon Code Cleaning
 
-### Check Performed:
+### Issues Identified
+- Empty strings  
+- "N/A", "NA", "nan" values  
+
+### Action Taken
+- Standardized invalid values to maintain consistency
+
+---
+
+## 🧮 6. Business Logic Validation
+
+### Revenue Check
 ```python
 quantity * unitprice == totalprice
 
 
-###
-# 🔗 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Olofin%20Iyiola%20Oluwaseun-blue?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/olofiniyiola)
 
-[![GitHub](https://img.shields.io/badge/GitHub-View%20My%20Projects-black?style=for-the-badge&logo=github)](https://github.com/YOUR-GITHUB-USERNAME)
+## 🤝 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/olofiniyiola)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/YOUR-GITHUB-USERNAME)
