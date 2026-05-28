@@ -111,10 +111,3 @@ Data Analyst | Python | Power BI | Machine Learning Enthusiast
 
 📧 Email: olofinio@funaab.edu.ng  
 
----
-
-# 🔗 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Olofin%20Iyiola%20Oluwaseun-blue?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/olofiniyiola)
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20My%20Projects-black?style=for-the-badge&logo=github)](https://github.com/YOUR-GITHUB-USERNAME)
